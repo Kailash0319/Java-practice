@@ -1,12 +1,21 @@
+import java.util.Scanner;
+
 class loop{
 
     public static void main(String [] args)
     {
-       int i=1;
+        Scanner scanner = new Scanner(System.in);
 
-       while(true)
+        System.out.println("enter the number");
+        int num = scanner.nextInt();
+       
+       scanner.close();
+       
+       int i = 0;
+
+       while(i<=num)
        {
-        System.out.println("hi"+i);
+        System.out.println("hello-"+i);
         i++;
        }
 
