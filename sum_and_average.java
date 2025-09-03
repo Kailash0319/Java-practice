@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class addition {
+public class sum_and_average {
     
     public static void main(String[] args){
 
@@ -11,12 +11,16 @@ public class addition {
 
         System.out.print("Enter second number: ");
         int num2 = scanner.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num3 = scanner.nextInt();
          
         scanner.close();
 
-        int addition = num1 + num2;
+        int sum = num1 + num2 + num3;
+        float average = sum / 3 ;
 
-        System.out.println(+num1+"+"+num2+"="+addition);
-
-    }
+        System.out.println("sum = " +sum);
+        System.out.println("average = "+average);
+      }
 }

@@ -17,7 +17,7 @@ public class Quotient_remainder {
         int Quotient = num1 / num2 ;
         int remainder = num1 % num2 ;
 
-        System.out.println("The quotient of "+num1+"/"+num2+"="+Quotient);
-        System.out.println("The remainder of "+num1+"%"+num2+"="+remainder);
+        System.out.println("The quotient of "+num1+" / "+num2+" = "+Quotient);
+        System.out.println("The remainder of "+num1+" % "+num2+" = "+remainder);
     }
 }

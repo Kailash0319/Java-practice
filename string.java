@@ -8,6 +8,7 @@ public class string {
         System.out.println(k.toUpperCase());
         System.out.println(k.toLowerCase());
         System.out.println(k.indexOf("world"));
+        
     }
     
 }
