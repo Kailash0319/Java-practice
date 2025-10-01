@@ -11,5 +11,8 @@ public class ternary {
     System.out.println("the number is "+result);
     
     reader.close();
-      }
+  }
 } 
+
+
+
