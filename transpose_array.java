@@ -41,5 +41,6 @@ public class transpose_array {
                 System.out.print(transpose[i][j]+ " ");
             }
         }
+        reader.close();
     }
 }
