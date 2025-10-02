@@ -14,6 +14,9 @@ public class prime_nonprime {
         if (num <= 1) {
             isPrime = false; // 0 and 1 are not prime
         } else {
+            // for (int i = 2; i * i <= num ; i++)
+            // for (int i = 2; i <= num -1 ; i++)
+            
             for (int i = 2; i <= num / 2; i++) {
                 if (num % i == 0) {
                     isPrime = false;
